@@ -1,5 +1,5 @@
 from design import *
-from github.gitcommand import *
+from gitcommand import *
 import webbrowser
 import sys
 import os
@@ -94,4 +94,5 @@ print('Instalation complete!')
         print(f'{magenta}This feature is coming soon!')
         input(f'\n{blue}Press enter to continue')
     else:
+
         Error('Error', 'Invalid option selected.')
